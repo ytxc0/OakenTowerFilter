@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:oakentower.wiki.gg)",
+      "Bash(npm --version)",
+      "Bash(npm run *)"
+    ]
+  }
+}

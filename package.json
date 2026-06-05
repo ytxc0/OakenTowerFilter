@@ -1,0 +1,26 @@
+{
+  "name": "treetower",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "data:fetch": "node scripts/fetch-itemdata.mjs",
+    "data:parse": "node scripts/parse-itemdata.mjs",
+    "data:tags": "node scripts/scaffold-tags.mjs",
+    "data:build": "node scripts/build-enriched.mjs",
+    "data": "npm run data:parse && npm run data:tags && npm run data:build"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "luaparse": "^0.3.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}

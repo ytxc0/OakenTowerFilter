@@ -1,0 +1,11 @@
+{
+    "root": [
+        "./src/main.ts",
+        "./src/types.ts",
+        "./src/composables/useitemfilter.ts",
+        "./src/app.vue",
+        "./src/components/filtergroup.vue",
+        "./src/components/itemcard.vue"
+    ],
+    "version": "5.9.3"
+}
