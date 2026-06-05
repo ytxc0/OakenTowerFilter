@@ -31,3 +31,7 @@ npm run build
 ```
 
 Outputs a static bundle to `dist/`. Deployable to any static host — no server required.
+
+## Development
+
+Vibe-coded for efficiency reasons. Application will not be maintained.
