@@ -11,7 +11,7 @@ npm run data         # parse + tag + build the bundled JSON
 npm run dev          # start dev server
 ```
 
-Open http://localhost:5173.
+Open the url from the terminal in a browser.
 
 ## Updating item data
 
