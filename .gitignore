@@ -4,4 +4,4 @@ dist
 .vite
 .DS_Store
 src/data
-data/row
+data/raw
